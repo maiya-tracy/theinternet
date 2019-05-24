@@ -21,6 +21,10 @@
 .white {
 	color: white;
 }
+.tinyfont {
+	font-size: 8px;
+	font-family: sans-serif;
+}
 .smallfont {
 	font-size: 12px;
 	font-family: sans-serif;
@@ -28,6 +32,11 @@
 .mediumfont {
 	font-size: 18px;
 	font-family: sans-serif;
+}
+.mlfont {
+	font-size: 22px;
+	font-family: sans-serif;
+	padding-top: 10px;
 }
 .largefont {
 	font-size: 30px;
@@ -44,9 +53,19 @@
 .bold {
 	font-weight: bold;
 }
+.center {
+	text-align: center;
+}
 .button {
 	padding: 10px 20px;
 	margin: 5px 0px;
+	border-style: none;
+	border-radius: 10px;
+	text-align: center;
+}
+.smallbutton {
+	padding: 8px 15px;
+	margin: 10px 5px;
 	border-style: none;
 	border-radius: 10px;
 	text-align: center;
@@ -56,6 +75,21 @@
 }
 .orangebackground {
 	background-image: linear-gradient(#EBA74B, #EF7300);
+}
+.lightbluebackground {
+	background-image: linear-gradient(#72CFDF, #00C0DF);
+}
+.brownbar {
+	height: 2px;
+	width: 200px;
+	background-color: #B1B1B1;
+	margin: 20px 0px;
+}
+.brownbarlarge {
+	height: 2px;
+	width: 730px;
+	background-color: #B1B1B1;
+	margin: 10px 0px;
 }
 
 /*~~~~~~~top~~~~~~~~~~~~~~~~~~~*/
@@ -67,24 +101,29 @@
 	background-color: white;
 }
 .header {
-	min-height: 170px;
-	vertical-align: center;
+	min-height: 140px;
+	vertical-align: middle;
+}
+.whitebar {
+	height: 80px;
+	background-color: white;
 }
 #globe {
 	width:100px;
-	vertical-align: center;
+	vertical-align: middle;
 }
 .topbar {
-	min-height:70px;
+	min-height:45px;
 	background-image: linear-gradient(#23659E, #5182AC, #24669F);
-	vertical-align: center;
+	vertical-align: middle;
 	text-align: left;
+	padding: 15px 0px 0px 10px;
 }
 
 /*~~~~~~~~~~~~~Body~~~~~~~~~~~~~~~~~*/
 
 .body {
-	background-image: linear-gradient(#C7C7C7, #FFFFFF);
+	background-image: linear-gradient(#E3E3E3, #FFFFFF);
 	min-height: 500px;
 	vertical-align: top;
 }
@@ -98,12 +137,107 @@
 .topsidebar span{
 	margin: 20px 0px;
 }
-#numbers {
+.topsidebar p{
+	margin: 10px 0px;
+}
+.bottomsidebar {
+	background-image: url(C:/Users/maiya/Google%20Drive/CodingDojo/CSS/theinternet/ad_background.png);
 	width: 200px;
+	min-height: 280px;
+}
+#ninja {
+	width: 80px;
+	padding-left: 60px;
 }
 .main_box {
-	width: 700px;
+	width: 730px;
 	min-height: 500px;
 	display: inline-block;
 	vertical-align: top;
+	margin-left: 30px;
 }
+
+/*~~~~~~~~~phone number box~~~~~~~~~~~~~*/
+
+.DNSandphone {
+	width: 725px;
+	height: 50px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.homedns {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.phone {
+	display: inline-block;
+	margin-left: 500px;
+	vertical-align: middle;
+	margin-top: 0px;
+}
+.numbers {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 0px;
+}
+#home {
+	width: 20px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+#phoneicon {
+	width: 25px;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+/*~~~~~~~~~~~~~text~~~~~~~~~~~~~~~*/
+
+li.black {
+	padding-left: 3px;
+	margin-left: 30px;
+}
+#serverclient {
+	width: 300px;
+	text-align: center;
+	position: relative;
+	left: 190px;
+	top: 25px;
+	margin-bottom: 40px;
+}
+.textlower li{
+	margin: 10px 5px 10px 30px;
+}
+.textupper li{
+	margin: 10px 5px 10px 30px;
+}
+
+/*~~~~~~~~~~~~~~~bottom box~~~~~~~~~~~~~~~~~~*/
+
+.bottombox {
+	width: 725px;
+	min-height: 90px;
+	border: solid #0085E0 3px;
+	border-bottom: none;
+}
+.triopic {
+	display: inline-block;
+}
+#htmlimg {
+	width:100px;
+	margin: 10px 5px 5px 10px;
+}
+.bottomtext {
+	width: 570px;
+	min-height:90px;
+	display: inline-block;
+	margin: 20px 5px 5px 20px;
+	vertical-align: top;
+}
+
+
+
+
+
